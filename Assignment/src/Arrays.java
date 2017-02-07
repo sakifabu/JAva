@@ -13,10 +13,21 @@ public class Arrays {
         }
 
     }
+    public static void evenswap(int [] array){
+        for (int k = 0; k < array.length; k++) {
+            if (array[k]%2 == 0){
+                array[k]=0
+            }
+            break;
+                
+        }
+    
+    }
     public static void main(String[] args) {
         int[] game = {2,3,4,5,6,8,9};
         arrayone(game);
         }
+    
 
     // B
     public static void shift(int[] seq) {
